@@ -1,0 +1,21 @@
+GET http://localhost:3000
+Accept-Encoding: "gzip"
+
+###
+
+GET http://localhost:3000/sanityCheckData
+
+
+###
+
+GET http://localhost:3000/generateData
+
+###
+
+GET http://localhost:3000/data?asBin=true
+Accept-Encoding: "gzip"
+
+###
+
+GET http://localhost:3000/data?asBin=false
+Accept: 'application/json'
